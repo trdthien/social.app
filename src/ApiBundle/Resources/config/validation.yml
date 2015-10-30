@@ -1,0 +1,4 @@
+AppBundle\Document\Post:
+    properties:
+        title:
+            - NotBlank: ~

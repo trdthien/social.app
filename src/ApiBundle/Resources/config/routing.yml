@@ -1,0 +1,10 @@
+api_post_create:
+    path:     /posts
+    defaults: { _controller: ApiBundle:Post:create, _format: ~}
+    requirements:
+        _method: POST
+api_post_list:
+    path:     /posts
+    defaults: { _controller: ApiBundle:Post:list, _format: ~ }
+    requirements:
+        _method: GET

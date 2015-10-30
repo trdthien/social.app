@@ -1,0 +1,7 @@
+AppBundle\Document\Post:
+  exclusion_policy: ALL
+  properties:
+    title:
+      expose: true
+    content:
+      expose: true
